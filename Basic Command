@@ -1,0 +1,36 @@
+
+Symbol	Stands for
+~	Home directory
+/	Root directory
+.	Current directory
+..	Parent directory
+
+
+
+Specifier	Explanation
+%d	Display the day of the month (01 to 31)
+%h	Displays the abbreviated month name (Jan to Dec)
+%m	Displays the month of year (01 to 12)
+%Y	Displays the four-digit year
+%T	Displays the time in 24 hour format as HH:MM:SS
+%H	Displays the hour
+
+-a	list all files, including hidden files
+-d	list directories only, do not include files
+-h	with -l and -s, print sizes like 1K, 234M, 2G
+-l	include attributes like permissions, owner, size, and last-modified date
+-S	sort by file size, largest first
+-t	sort by last-modified date, newest first
+-r	reverse the sort order
+
+
+Permission	symbol
+read	r
+write	w
+execute	x
+
+
+Option	Description
+r, w and x	permissions: read, write and execute, respectively
+u,g and o	user categories: owner, group and all others, respectively
++, -	operations: grant and revoke, respectively
