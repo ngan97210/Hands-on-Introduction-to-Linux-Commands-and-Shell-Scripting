@@ -38,4 +38,5 @@ Let's break down the details of this statement:
 : matches :
 [0-9]* matches any number of digits (from 0 to 9)
 ?\. optionally matches a . (this is in case price were an integer)
+The backslash \ character used here after the pipe | allows you to write the expression on multiple lines.
 """""""""""""""""""""""""""""""""""""""""""""
