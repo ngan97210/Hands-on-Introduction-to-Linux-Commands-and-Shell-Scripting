@@ -51,3 +51,14 @@ Option	Description
 -c	Create new archive file
 -v	Verbosely list files processed
 -f	Archive file name
+
+
+If we need to change these defaults, shell provides a feature called I/O Redirection.
+
+This is achieved using the following special characters.
+
+Symbol	Meaning
+<	Input Redirection
+>	Output Redirecton
+>>	Append Output
+2>	Error Redirection
